@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.background{
+    position: relative;
+    height: 250px;
+    
+    min-width: 90%;
+    
+    background-image: url(img/sky2.jpg);
+}
+.sky{
+    height: 100%;
+    width: 100%;
+}
+.cloud1{
+    display: inline-block;
+    position: absolute;
+    height: 100%;
+    left: 0;
+    animation-name: cloud1;
+    animation-delay:0.3s;
+    animation-duration: 9s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    
+}
+
+
+.cloud2{
+    animation-name: cloud2;
+    animation-delay:0.3s;
+    animation-duration: 9s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    right: 0;
+    display: inline-block;
+    position: absolute;
+    height: 100%
+}
+.cloud1 img{
+    height: 100%;
+}
+.cloud2 img{
+    height: 100%;
+}
+@keyframes cloud2{
+    form{
+        left: 0px;
+    }
+    to{
+        right: 100%;
+    }
+}
+@keyframes cloud1{
+    form{
+        right: 0px;
+    }
+    to{
+        left: 100%;
+    }
+}
