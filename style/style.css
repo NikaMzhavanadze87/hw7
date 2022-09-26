@@ -23,6 +23,7 @@
     animation-duration: 9s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
+    animation-direction: alternate;
     
 }
 .cloud2{
@@ -31,6 +32,7 @@
     animation-duration: 9s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
+    animation-direction: alternate;
     right: 0;
     display: inline-block;
     position: absolute;
